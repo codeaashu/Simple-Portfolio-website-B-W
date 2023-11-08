@@ -1,0 +1,96 @@
+/* ===( CODE AASHU )=== */
+
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    align-items: center;
+}
+img{
+    padding-left: 100px;
+    max-width: 100%;
+    height: 55px;
+
+
+}
+.navbar ul{
+
+    display: flex;
+}
+.navbar li{
+    margin-right: 50px;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1d1d1d;
+    text-transform: capitalize;
+
+
+}
+.navbar li a::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: black;
+     margin: auto;
+}
+.navbar li a:hover::after{
+    width: 100%;
+}
+.icon a{
+    font-size:20px;
+    margin-right: 20px;
+    color: black;
+ 
+}
+.text{
+    position: absolute;
+    top: 35%;
+    left: 12%;
+}
+.text h1{
+    color: #222222;
+    text-transform: uppercase;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 10px;
+}
+.text p{
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #414447;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 40px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+}
